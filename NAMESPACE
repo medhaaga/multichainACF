@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "adjustcolor")
+importFrom("graphics", "legend", "lines", "plot")
+importFrom("stats", "acf", "ccf")
