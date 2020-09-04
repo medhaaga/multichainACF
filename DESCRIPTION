@@ -1,6 +1,6 @@
 Package: multichainACF
 Type: Package
-Title: Auto Correlation/Covariance Function (ACF) plots for Multiple Markov Chains
+Title: Autocorrelation function (ACF) plots for multiple Markov Chains
 Version: 0.1.0
 Depends: R (>= 3.5.0)
 Imports: stats, grDevices, graphics
@@ -9,7 +9,7 @@ Authors@R: c(
     person("Medha", "Agarwal", email = "medhaaga@gmail.com", role = c("aut", "cre")),
     person("Dootika", "Vats", email = "dootika@iitk.ac.in", role = "aut"))
 Maintainer: Medha Agarwal <medhaaga@gmail.com>
-Description: Given a list of multiple Markov chains, this package offers functions for ACF and CCF plots that pool information from all chains yielding more accurate estimates. 
+Description: Given a list of multiple Markov chains, the functions presents ACF and CCF plots that pool information from all chains yielding more accurate estimates. 
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
